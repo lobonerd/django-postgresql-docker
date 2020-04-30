@@ -22,10 +22,14 @@ docker-compose up -d
 
 Si se desea ingresar al contenedor con django para ejecutar instrucciones para crear app y demas.
 ejemplo:
--- Verificar nombre o id del conteneder
-docker ps 
+<p>
 
+ -- Verificar nombre o id del conteneder
+ </p>
+docker ps 
+<p>
 --- Ingresar al conteendor
+</p>
 docker exec -it (nombre del contenedero o id) bash
 
 # paso 5
