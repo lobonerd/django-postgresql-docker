@@ -10,14 +10,17 @@ Modificar el archivo requirements.txt con lo que se desea trabajar
 Modificar el docker-compose.yml con las variables locales.
 
 # paso 3
+<p>
 Inicia el proyecto:
+</p>
 docker-compose run web django-admin startproject project-new .
-
+<p>
 Cuando termine se debera bajar por completo el compose.
+</p>
 dokcer-compose down
 
 # paso 4
-Inciar por completo el ambiente:
+Inciar por completo el mkbiente:
 docker-compose up -d
 
 Si se desea ingresar al contenedor con django para ejecutar instrucciones para crear app y demas.
@@ -25,7 +28,7 @@ ejemplo:
 <p>
 
  -- Verificar nombre o id del conteneder
- </p>
+</p>
 docker ps 
 <p>
 --- Ingresar al conteendor
