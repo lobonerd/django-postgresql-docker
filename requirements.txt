@@ -1,0 +1,7 @@
+Django
+psycopg2
+Pillow
+django-numpy
+django-pandas
+matplotlib
+statsmodels
