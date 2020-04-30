@@ -1,5 +1,5 @@
 # django-postgresql-docker
- docker-compose para ejecurtar un entorno de desarrollo con docker
+ docker-compose para ejecutar un entorno de desarrollo con docker
 
  La facilidad es poder trabajar varios proyectos desde docker sin instalar localmente versiones de python o librerias.
 
@@ -17,7 +17,7 @@ Cuando termine se debera bajar por completo el compose.
 dokcer-compose down
 
 # paso 4
-Inciar completo el ambiente:
+Inciar por completo el ambiente:
 docker-compose up -d
 
 Si se desea ingresar al contenedor con django para ejecutar instrucciones para crear app y demas.
@@ -29,7 +29,7 @@ docker ps
 docker exec -it (nombre del contenedero o id) bash
 
 # paso 5
-El IDE (VSCode - spyder PC) se le indicara que el directorio de trabajo:  /mi_directorio_pc/base
+El IDE (VSCode - spyder - PC) se le indicara que el directorio de trabajo:  /mi_directorio_pc/base
 
 
 
