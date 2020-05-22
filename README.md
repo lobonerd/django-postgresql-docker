@@ -17,7 +17,7 @@ docker-compose run web django-admin startproject project-new .
 <p>
 Cuando termine se debera bajar por completo el compose.
 </p>
-dokcer-compose down
+docker-compose down
 
 # paso 4
 Inciar por completo el mkbiente:
