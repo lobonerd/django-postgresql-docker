@@ -1,7 +1,7 @@
 # django-postgresql-docker
- docker-compose para ejecutar un entorno de desarrollo con docker
+ docker-compose para ejecutar un stack en producción de django conterizado
 
- La facilidad es poder trabajar varios proyectos desde docker sin instalar localmente versiones de python o librerias.
+ 
 
  # paso 1
 Modificar el archivo requirements.txt con lo que se desea trabajar
@@ -20,13 +20,12 @@ Cuando termine se debera bajar por completo el compose.
 docker-compose down
 
 # paso 4
-Inciar por completo el mkbiente:
+Inciar por completo el ambiente:
 docker-compose up -d
 
 Si se desea ingresar al contenedor con django para ejecutar instrucciones para crear app y demas.
 ejemplo:
 <p>
-
  -- Verificar nombre o id del conteneder
 </p>
 docker ps 
