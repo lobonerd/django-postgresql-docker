@@ -13,7 +13,9 @@ Modificar el docker-compose.yml con las variables locales.
 <p>
 Inicia el proyecto:
 </p>
+<p>
 docker-compose run web django-admin startproject project-new .
+</p>
 <p>
 Cuando termine se debera bajar por completo el compose.
 </p>
